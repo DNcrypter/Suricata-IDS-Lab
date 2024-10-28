@@ -30,6 +30,7 @@ In this home-lab, we will cover:
 
 
 ## 🛠 Setting up the Suricata Home-Lab
+Now we have clear image of what is suricata and also we made structural overview of lab. Lest start with setup the home-lab in local machine for what we already discuss that we require Virtualbox so we can setup labs there. All commands require for installation is in suricata-installaton-guide.md
 
 - **Setting up Suricata IDS Server**
   -  Import Ubuntu Server 22.04 OVA file in Virtualbox
