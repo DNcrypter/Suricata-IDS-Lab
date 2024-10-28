@@ -116,7 +116,7 @@ alert http any any -> any any (msg:"Metasploit SQL Injection Attempt Detected"; 
   ```
 - **Metasploit Cross-Site Request Forgery (CSRF) Detection**: Formulate a Suricata rule to detect Metasploit CSRF attacks by monitoring for unexpected or unauthorized HTTP requests originating from victim hosts.
 ```yaml
-alert http any any -> any any (msg:"Metasploit CSRF Attack Detected"; content:"CSRF Token"; sid:100018;)
+alert http any any -> any any (msg:"CSRF Attack Detected"; flow:established,to_server; content:"CSRF Token"; http_cookie; http_header; pcre:"/token=[A-Za-z0-9]{32,}/"; sid:100018;)
 ```
 - **Metasploit Authentication Bypass Detection**: Develop a Suricata rule to detect Metasploit authentication bypass attempts by monitoring for HTTP requests with bypass techniques (e.g., parameter manipulation, session fixation).
 ```yaml
