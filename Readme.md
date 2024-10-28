@@ -1,6 +1,6 @@
-# Suricata IDS Home-Lab
+# 🦝 Suricata IDS Home-Lab 
 
-## Introduction
+## 🍁Introduction
 
 The goal of setting up a Suricata home-lab is to gain practical experience in deploying and configuring an Intrusion Detection System (IDS) for network security monitoring. Suricata is an open-source IDS capable of detecting and preventing various network-based threats. This home-lab provides individuals with hands-on experience in setting up, configuring, and utilizing Suricata to enhance network security.  
 ![Blue Sand White Beach Simple Watercolor Etsy Shop Banner (2)](https://github.com/DNcrypter/Suricata-IDS-Lab/blob/main/Suricata_1.jpg)
@@ -14,7 +14,7 @@ In this home-lab, we will cover:
 - Need Training?
 
 
-## Requirements
+## 📝 Requirements
 
 - **Hardware**:
   - Computer with internet connectivity
@@ -24,13 +24,13 @@ In this home-lab, we will cover:
   - Windows Machine(Victim Machine)
   - Kali Linux(Attacker Machine)
 
-## Lab Diagram
+## 👩🏻‍🔬🧪Lab Diagram
 
 ![Home-Lab (3)]()
 
 
 
-## </> Setting up the Suricata Home-Lab
+## 🛠 Setting up the Suricata Home-Lab
 
 - **Setting up Suricata IDS Server**
   -  Import Ubuntu Server 22.04 OVA file in Virtualbox
@@ -123,7 +123,7 @@ alert http any any -> any any (msg:"Metasploit CSRF Attack Detected"; content:"C
   alert http any any -> any any (msg:"Metasploit Authentication Bypass Attempt Detected"; content:"Admin=true"; sid:100019;)
   ```
 
-## Contributions
+## 🍁🍁 Contributions
 
 If you want to add more content in this, Pull request are always welcome. please check my medium blogs where i always active...
 
