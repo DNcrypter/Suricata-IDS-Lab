@@ -11,7 +11,6 @@ In this home-lab, we will cover:
 - [Setting up the Suricata Home-Lab](https://github.com/0xrajneesh/Suricata-IDS-Home-Lab?tab=readme-ov-file#-setting-up-the-suricata-home-lab)
 - [Excercises- Network-based attacks](https://github.com/0xrajneesh/Suricata-IDS-Home-Lab?tab=readme-ov-file#excercises--network-based-attacks)
 - [Excercises- Web-based attacks](https://github.com/0xrajneesh/Suricata-IDS-Home-Lab?tab=readme-ov-file#excercises--web-based-attacks)
-- Need Training?
 
 
 ## 📝 Requirements
