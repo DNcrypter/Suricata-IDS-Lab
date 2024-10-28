@@ -17,15 +17,15 @@ In this home-lab, we will cover:
 
 - **Hardware**:
   - Computer with internet connectivity
-  - RAM: at least 16GB
-  - CPU:dual-core processor
+  - RAM: 16GB at least
+  - CPU: dual-core processor
 - **VM/ISO Image**:
   - Windows Machine(Victim Machine)
   - Kali Linux(Attacker Machine)
 
 ## 👩🏻‍🔬🧪Lab Diagram
 
-![Home-Lab (3)]()
+![Home-Lab (3)](https://github.com/DNcrypter/Suricata-IDS-Lab/blob/main/Suricata_2.png)
 
 
 
